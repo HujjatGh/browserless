@@ -53,3 +53,9 @@ h1 {
     padding: auto auto auto 0px;
     border-style:solid;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
