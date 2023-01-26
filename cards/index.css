@@ -1,0 +1,80 @@
+.cards-box {
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    
+
+}
+.card {
+    margin: 15px;
+    text-align: center;
+    padding: 0 auto;
+    
+}
+.card-title {
+    font-size: 42px;
+}
+.card ul {
+    text-align: left;
+}
+.sup {
+    font-size: 18px;
+}
+#list {
+    list-style: none;
+}
+#list2 {
+     list-style: none;
+}
+
+#list2 li::before {
+    
+        content: "\2022";
+        color: pink;
+        font-weight: bold;
+        display: inline-block; 
+        width: 1em;
+        margin-left: -1em;
+      }
+
+      #list li::before {
+    
+        content: "\2022";
+        color: yellow;
+        font-weight: bold;
+        display: inline-block; 
+        width: 1em;
+        margin-left: -1em;
+      }
+.second .head-paraf{
+      background-image: linear-gradient(to right , #FF4194 , #FFEF42);
+}
+
+.third {
+    background-color: black;
+    color: white;
+   
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    margin: 8px auto;
+    width: 250px;
+    border-radius: 0;
+
+}
+.btn:hover {
+    background-color: blue;
+    color: white;
+}
+.btn-third {
+    background-color: #f1f1f1;
+    color: black;
+}
+.btn-third:hover {
+    background-color: pink;
+}
