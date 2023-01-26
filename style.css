@@ -25,14 +25,31 @@ div>a {
     padding: 10px 30px;
     text-decoration: none;
 }
-sd
+.account a {
+    text-decoration: none;
+    color: black;
+}
 h1 {
     text-align: center;
 }
-.cloudbased a {
-    color: black;
+
+.cloudbased {
+    align-items: center;
+    display: flex;
 }
 
-@media screen and (max-width: ){
-    
+.cloudbased a {
+    color: black;
+
+}
+#cloudbasedid {
+    background-color: black;
+    color: white;
+    margin: auto 0px auto auto;
+
+}
+#onprem {
+    margin: auto auto auto 0px;
+    padding: auto auto auto 0px;
+    border-style:solid;
 }
